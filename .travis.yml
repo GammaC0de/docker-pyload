@@ -14,3 +14,4 @@ script:
   - sudo docker build -t pyload .
   # TODO: rspec surely is much cooler than this
   - sudo sh ./test-link.sh xdcc://irc.rizon.net/#NIBL/AnimeDispenser/#9
+  #
