@@ -13,7 +13,8 @@ script:
   #- rspec Dockerfile_spec.rb
   - sudo docker build -t pyload .
   # TODO: rspec surely is much cooler than this
-  - sudo sh ./test-link.sh xdcc://420-hightimes.org/movies/Hogleg[HD]/906
+  - sudo sh ./test-link.sh xdcc://eudora.sg.as.abjects.net/BEAST-XDCC/Beast-J-085/174
+  # - sudo sh ./test-link.sh xdcc://420-hightimes.org/movies/Hogleg[HD]/906
   #- sudo sh ./test-link.sh xdcc://irc.rizon.net/#NIBL/Retrofit\|Kazahana/#1
   # - sudo sh ./test-link.sh xdcc://irc.rizon.net/HorribleSubs/ARUTHA-BATCH\|1080p/947
   # - sudo sh ./test-link.sh xdcc://irc.rizon.net/#NIBL/AnimeDispenser/#9
