@@ -15,7 +15,10 @@ script:
   # TODO: rspec surely is much cooler than this
   - sudo sh ./test-link.sh xdcc://irc.rizon.net/#NIBL/AnimeDispenser/#9
   - sudo sh ./test-link.sh xdcc://eudora.sg.as.abjects.net/BEAST-XDCC/Beast-J-085/174
-  - sudo sh ./test-link.sh xdcc://420-hightimes.org/movies/Hogleg[HD]/906
+  - sudo sh ./test-link.sh xdcc://eudora.sg.as.abjects.net/BEAST-XDCC/Beast-J-096/189
+  - sudo sh ./test-link.sh xdcc://eudora.sg.as.abjects.net/BEAST-XDCC/Beast-PIColo-123/189
+  - sudo sh ./test-link.sh xdcc://eudora.sg.as.abjects.net/BEAST-XDCC/Beast-X-047/584
+  - sudo sh ./test-link.sh xdcc://eudora.sg.as.abjects.net/moviegods/[MG]-HD|EU|S|No/380
   - sudo sh ./test-link.sh xdcc://irc.rizon.net/#NIBL/Retrofit\|Kazahana/#1
   - sudo sh ./test-link.sh xdcc://irc.rizon.net/HorribleSubs/ARUTHA-BATCH\|1080p/947
   #
