@@ -28,7 +28,8 @@ RUN apt-get update && apt-get install -y python \
 RUN git clone https://github.com/GammaC0de/pyload.git /opt/pyload -b pyload-xdcc  \
         && cd /opt/pyload \
         && echo "/opt/pyload/pyload-config" > /opt/pyload/module/config/configdir \
-        && rm -f /opt/pyload/module/plugins/hooks/ExtractArchive.py
+        && rm -f /opt/pyload/module/plugins/hooks/ExtractArchive.py \ 
+        && rm -f /opt/pyload/pyload-config/userplugins/hooks/ExtractArchive.py
 
 ADD test/pyload-config/ /tmp/pyload-config
 ADD run.sh /run.sh
