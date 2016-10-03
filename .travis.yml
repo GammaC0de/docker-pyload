@@ -15,7 +15,7 @@ script:
   # TODO: rspec surely is much cooler than this
   - sudo sh ./test-link.sh xdcc://irc.rizon.net/#NIBL/AnimeDispenser/#9
   - sudo sh ./test-link.sh xdcc://irc.rizon.net/#NIBL/Baka^/1
-  - sudo sh ./test-link.sh xdcc://irc.rizon.net/HorribleSubs/Kaio-ken/1
+  - sudo sh ./test-link.sh xdcc://irc.rizon.net/#HorribleSubs/Ginpachi-Sensei/28
 #  - sudo sh ./test-link.sh xdcc://eudora.sg.as.abjects.net/BEAST-XDCC/Beast-J-083/27
 #  - sudo sh ./test-link.sh xdcc://irc.rizon.net/#NIBL/Retrofit\|Kazahana/#1
 #  - sudo sh ./test-link.sh xdcc://irc.rizon.net/HorribleSubs/ARUTHA-BATCH\|1080p/947
