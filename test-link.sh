@@ -25,6 +25,9 @@ while true;do
     *"queued"*"XDCC"*)
       log "Queued"
       ;;
+    *"starting"*"XDCC"*)
+      log "Starting"
+      ;;
     *"connect"*"XDCC"*)
       log "Connecting"
       ;;
