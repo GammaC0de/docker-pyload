@@ -13,6 +13,7 @@ script:
   #- rspec Dockerfile_spec.rb
   - sudo docker build -t pyload .
   # TODO: rspec surely is much cooler than this
+  - sudo sh ./test-link.sh 'xdcc://eudora.sg.as.abjects.net/#moviegods/[MG]-HD|EU|S|MA/#12'
   - sudo sh ./test-link.sh xdcc://irc.rizon.net/#NIBL/AnimeDispenser/#9
   - sudo sh ./test-link.sh xdcc://irc.rizon.net/#NIBL/Baka^/1
   - sudo sh ./test-link.sh xdcc://irc.rizon.net/#HorribleSubs/Ginpachi-Sensei/28
